@@ -5355,6 +5355,15 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <sheets>
 <sheet>
 <plain>
+<text x="-5.08" y="58.42" size="1.778" layer="96">68</text>
+<text x="-5.08" y="53.34" size="1.778" layer="96">68</text>
+<text x="-22.86" y="60.96" size="1.778" layer="96" rot="R90">1k5</text>
+<text x="45.72" y="55.88" size="1.778" layer="96">10k</text>
+<text x="35.56" y="5.08" size="1.778" layer="96">0.1uF</text>
+<text x="53.34" y="7.62" size="1.778" layer="96">0.1uF</text>
+<text x="40.64" y="66.04" size="1.778" layer="96">0.1uF</text>
+<text x="-27.94" y="43.18" size="1.778" layer="96">3V6</text>
+<text x="-20.32" y="43.18" size="1.778" layer="96">3V6</text>
 </plain>
 <instances>
 <instance part="IC1" gate="1" x="91.44" y="25.4"/>
