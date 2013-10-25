@@ -11568,30 +11568,30 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 </classes>
 <parts>
 <part name="IC1" library="Arduino-AVR" deviceset="ATMEGA168-PU" device=""/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="0204/7"/>
-<part name="C2" library="capacitor-wima" deviceset="C" device="2,5-3"/>
-<part name="C3" library="capacitor-wima" deviceset="C" device="2,5-3"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="0204/7" value="10k"/>
+<part name="C2" library="capacitor-wima" deviceset="C" device="2,5-3" value="0.1μF"/>
+<part name="C3" library="capacitor-wima" deviceset="C" device="2,5-3" value="0.1μF"/>
 <part name="SV1" library="con-lstb" deviceset="MA06-1" device=""/>
-<part name="C1" library="capacitor-wima" deviceset="C" device="2,5-3"/>
+<part name="C1" library="capacitor-wima" deviceset="C" device="2,5-3" value="0.1μF"/>
 <part name="X1" library="con-berg" deviceset="PN61729" device=""/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="0204/7"/>
-<part name="R3" library="resistor" deviceset="R-EU_" device="0204/7"/>
-<part name="R4" library="resistor" deviceset="R-EU_" device="0204/7"/>
-<part name="D1" library="diode" deviceset="ZENER-DIODE" device="ZD-5"/>
-<part name="D2" library="diode" deviceset="ZENER-DIODE" device="ZD-5"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="0204/7" value="68"/>
+<part name="R3" library="resistor" deviceset="R-EU_" device="0204/7" value="68"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="0204/7" value="1k5"/>
+<part name="D1" library="diode" deviceset="ZENER-DIODE" device="ZD-5" value="3V6"/>
+<part name="D2" library="diode" deviceset="ZENER-DIODE" device="ZD-5" value="3V6"/>
 <part name="Q1" library="special" deviceset="XTAL/S" device=""/>
-<part name="C4" library="capacitor-wima" deviceset="C" device="2,5-3"/>
-<part name="C5" library="capacitor-wima" deviceset="C" device="2,5-3"/>
+<part name="C4" library="capacitor-wima" deviceset="C" device="2,5-3" value="22pF"/>
+<part name="C5" library="capacitor-wima" deviceset="C" device="2,5-3" value="22pF"/>
 <part name="OK1" library="optocoupler" deviceset="4N35" device=""/>
 <part name="OK2" library="optocoupler" deviceset="4N35" device=""/>
 <part name="OK3" library="optocoupler" deviceset="4N35" device=""/>
 <part name="OK4" library="optocoupler" deviceset="4N35" device=""/>
 <part name="OK5" library="optocoupler" deviceset="4N35" device=""/>
-<part name="R5" library="resistor" deviceset="R-EU_" device="0204/7"/>
-<part name="R6" library="resistor" deviceset="R-EU_" device="0204/7"/>
-<part name="R7" library="resistor" deviceset="R-EU_" device="0204/7"/>
-<part name="R8" library="resistor" deviceset="R-EU_" device="0204/7"/>
-<part name="R9" library="resistor" deviceset="R-EU_" device="0204/7"/>
+<part name="R5" library="resistor" deviceset="R-EU_" device="0204/7" value="1k"/>
+<part name="R6" library="resistor" deviceset="R-EU_" device="0204/7" value="1k"/>
+<part name="R7" library="resistor" deviceset="R-EU_" device="0204/7" value="1k"/>
+<part name="R8" library="resistor" deviceset="R-EU_" device="0204/7" value="1k"/>
+<part name="R9" library="resistor" deviceset="R-EU_" device="0204/7" value="1k"/>
 <part name="X2" library="con-wago-500" deviceset="W237-102" device=""/>
 <part name="X3" library="con-wago-500" deviceset="W237-102" device=""/>
 <part name="X4" library="con-wago-500" deviceset="W237-102" device=""/>
@@ -11602,40 +11602,27 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <part name="IC4" library="ic-package" deviceset="DIL8" device="S"/>
 <part name="IC5" library="ic-package" deviceset="DIL8" device="S"/>
 <part name="IC6" library="v-reg-mod" deviceset="LM317?*" device="MSTT3"/>
-<part name="C6" library="resistor" deviceset="CPOL-EU" device="153CLV-0605"/>
-<part name="C7" library="capacitor-wima" deviceset="C" device="2,5-3"/>
+<part name="C6" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="33μF"/>
+<part name="C7" library="capacitor-wima" deviceset="C" device="2,5-3" value="0.47μF"/>
 <part name="X7" library="con-wago-500" deviceset="W237-102" device=""/>
 <part name="X8" library="con-wago-500" deviceset="W237-102" device=""/>
 <part name="X9" library="con-wago-500" deviceset="W237-102" device=""/>
 <part name="X10" library="con-wago-500" deviceset="W237-102" device=""/>
-<part name="R10" library="resistor" deviceset="R-EU_" device="0204/7"/>
+<part name="R10" library="resistor" deviceset="R-EU_" device="0204/7" value="10k"/>
 <part name="D3" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="R11" library="resistor" deviceset="R-EU_" device="0204/7"/>
+<part name="R11" library="resistor" deviceset="R-EU_" device="0204/7" value="10k"/>
 <part name="D4" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="R12" library="resistor" deviceset="R-EU_" device="0204/7"/>
+<part name="R12" library="resistor" deviceset="R-EU_" device="0204/7" value="10k"/>
 <part name="D5" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="R13" library="resistor" deviceset="R-EU_" device="0204/7"/>
+<part name="R13" library="resistor" deviceset="R-EU_" device="0204/7" value="10k"/>
 <part name="D6" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="R14" library="resistor" deviceset="R-EU_" device="0204/7"/>
+<part name="R14" library="resistor" deviceset="R-EU_" device="0204/7" value="10k"/>
 <part name="D7" library="diode" deviceset="1N4148" device="DO35-7"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-5.08" y="58.42" size="1.778" layer="96">68</text>
-<text x="-5.08" y="53.34" size="1.778" layer="96">68</text>
 <text x="-22.86" y="60.96" size="1.778" layer="96" rot="R90">1k5</text>
-<text x="45.72" y="55.88" size="1.778" layer="96">10k</text>
-<text x="35.56" y="5.08" size="1.778" layer="96">0.1uF</text>
-<text x="53.34" y="7.62" size="1.778" layer="96">0.1uF</text>
-<text x="40.64" y="66.04" size="1.778" layer="96">0.1uF</text>
-<text x="-27.94" y="43.18" size="1.778" layer="96">3V6</text>
-<text x="-20.32" y="43.18" size="1.778" layer="96">3V6</text>
-<text x="182.88" y="60.96" size="1.778" layer="96">1k</text>
-<text x="182.88" y="40.64" size="1.778" layer="96">1k</text>
-<text x="182.88" y="20.32" size="1.778" layer="96">1k</text>
-<text x="182.88" y="0" size="1.778" layer="96">1k</text>
-<text x="182.88" y="-20.32" size="1.778" layer="96">1k</text>
 <text x="27.94" y="-78.74" size="1.778" layer="96" rot="R90">MAX31885 (SO-&gt;DIP)</text>
 <text x="58.42" y="-78.74" size="1.778" layer="96" rot="R90">MAX31885 (SO-&gt;DIP)</text>
 <text x="88.9" y="-78.74" size="1.778" layer="96" rot="R90">MAX31885 (SO-&gt;DIP)</text>
@@ -12438,39 +12425,9 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,5.08,53.34,PAD1,P,,,,"/>
-<approved hash="101,1,5.08,33.02,PAD2,P,,,,"/>
-<approved hash="101,1,144.78,7.62,PAD3,P,,,,"/>
-<approved hash="101,1,144.78,-2.54,PAD4,P,,,,"/>
-<approved hash="101,1,144.78,10.16,PAD5,P,,,,"/>
-<approved hash="101,1,144.78,12.7,PAD6,P,,,,"/>
-<approved hash="101,1,144.78,-5.08,PAD7,P,,,,"/>
-<approved hash="101,1,144.78,-7.62,PAD8,P,,,,"/>
-<approved hash="104,1,60.96,-2.54,IC1,GND,N$2,,,"/>
 <approved hash="104,1,60.96,25.4,IC1,VCC,N$3,,,"/>
-<approved hash="104,1,60.96,2.54,IC1,GND/ANALOG,N$2,,,"/>
-<approved hash="106,1,121.92,-2.54,N$6,,,,,"/>
-<approved hash="106,1,121.92,7.62,N$7,,,,,"/>
-<approved hash="111,1,3.81,53.34,N$3,,,,,"/>
-<approved hash="111,1,2.54,33.02,N$2,,,,,"/>
-<approved hash="111,1,142.24,7.62,N$7,,,,,"/>
-<approved hash="111,1,142.24,-2.54,N$6,,,,,"/>
-<approved hash="111,1,143.51,10.16,N$3,,,,,"/>
-<approved hash="111,1,142.24,10.16,N$3,,,,,"/>
-<approved hash="111,1,143.51,12.7,N$2,,,,,"/>
-<approved hash="111,1,143.51,-5.08,N$3,,,,,"/>
-<approved hash="111,1,142.24,-7.62,N$2,,,,,"/>
-<approved hash="115,1,55.88,54.3348,R1,,,,,"/>
 <approved hash="115,1,34.6868,6.35,C2,,,,,"/>
 <approved hash="115,1,52.4668,8.89,C3,,,,,"/>
-<approved hash="115,1,4.8006,54.5126,PAD1,,,,,"/>
-<approved hash="115,1,4.8006,34.1926,PAD2,,,,,"/>
-<approved hash="115,1,144.501,8.79263,PAD3,,,,,"/>
-<approved hash="115,1,144.501,-1.36737,PAD4,,,,,"/>
-<approved hash="115,1,144.501,11.3326,PAD5,,,,,"/>
-<approved hash="115,1,144.501,13.8726,PAD6,,,,,"/>
-<approved hash="115,1,144.501,-3.90737,PAD7,,,,,"/>
-<approved hash="115,1,144.501,-6.44737,PAD8,,,,,"/>
 </errors>
 </schematic>
 </drawing>
